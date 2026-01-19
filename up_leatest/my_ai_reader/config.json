@@ -1,0 +1,25 @@
+{
+  "api_config": {
+    "api_key": "ms-f..........3e2f",
+    "base_url": "https://api-inference.modelscope.cn/v1/",
+    "model": "Qwen/Qwen2.5-Coder-32B-Instruct"
+  },
+  "chunk_config": {
+    "max_chars": 5000,
+    "split_pattern": "[.!?。！？]"
+  },
+  "prompts": {
+    "chunk_analysis": "You are a professional technical document analyst. Please analyze the following document fragment and provide a summary.\n\nDocument Name: {filename}\nDocument Fragment ({chunk_index}/{total_chunks}):\n{chunk_text}\n\nPlease provide the following information:\n1. Main Points: List the core points of this section (3-5 points)\n2. Key Operations: Extract important steps or methods mentioned in the document\n3. Highlighted Sentences: Select the most valuable or enlightening sentences (2-3 sentences)\n4. Summary: Summarize this section in one paragraph\n\nPlease answer in a clear and concise manner, using Chinese.",
+    "final_summary": "You are a professional technical document summary expert. Below are analysis summaries of different parts of the same document. Please integrate them into a complete summary report.\n\nDocument Name: {filename}\n\nSummaries of each part:\n{combined_content}\n\nBased on the above content, please generate a structured complete summary report, including:\n1. Overall Overview: Main content and purpose of the document\n2. Core Points: Most important findings after integration\n3. Operational Guide: Summary of key operational steps involved in the document\n4. Excellent Excerpts: Collection of the most valuable sentences\n5. Summary Evaluation: Value assessment and application recommendations for the entire document\n\nThe report should be well-structured and highlight key points for readers to quickly understand the core content of the document. Output in Markdown format.\nPlease answer in a clear and concise manner, using Chinese."
+  },
+  "processing_options": {
+    "temperature": 0.3,
+    "max_tokens_chunk": 1000,
+    "max_tokens_final": 2000,
+    "delay_between_requests": 1
+  },
+  "directory_config": {
+    "raw_docs_dir": "raw_doc",
+    "processed_docs_dir": "processed_docs"
+  }
+}
