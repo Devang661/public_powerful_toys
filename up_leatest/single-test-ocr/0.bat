@@ -1,0 +1,6 @@
+@echo off
+echo 正在启动 OCR 测试脚本...
+python test_ocr.py
+echo.
+echo 测试结束，请按任意键退出...
+pause
