@@ -188,3 +188,5 @@ https://youtu.be/738U_dmY8Gw?t=1022
 
 # 12 地区套利
 https://youtu.be/j7rpcDIR7HQ
+
+芬兰语言  --学费是 0-- 永居
