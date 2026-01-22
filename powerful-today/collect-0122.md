@@ -190,3 +190,6 @@ https://youtu.be/738U_dmY8Gw?t=1022
 https://youtu.be/j7rpcDIR7HQ
 
 芬兰语言  --学费是 0-- 永居
+https://www.notion.so/2e19caa8c31180b19428e6d18fe4263d
+
+[德语学习](https://www.vhs-lernportal.de/wws/9.php#/wws/kursangebot-lernende.php?sid=84873223321052124924688195704698980830055143407581444676861606160180Sd82b430e)
